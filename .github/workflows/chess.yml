@@ -3,7 +3,7 @@ name: Chess!
 on:
   push:
     paths:
-      - '**.pgn'
+      - '**.md'
 
 jobs:
   play:
