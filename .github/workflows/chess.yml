@@ -13,13 +13,13 @@ jobs:
 
     - uses: cschleiden/chess-action@v1
       with:
-        games: '**/*.pgn'
+        games: '**/*.md'
 
     - name: Commit changed files
       uses: stefanzweifel/git-auto-commit-action@v2.3.0
       with:
         commit_message: Played some chess!
         branch: master
-        file_pattern: '*.pgn'
+        file_pattern: '*.md'
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
