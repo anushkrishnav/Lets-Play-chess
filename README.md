@@ -1,4 +1,1 @@
-# Pyscript
-Python script to automate stuff
-
-f4
+Wanna Play chess ?
